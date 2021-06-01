@@ -1,0 +1,31 @@
+.container {
+    height: 160px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 15px;
+    border-radius: 12px;
+}
+
+.top {
+    flex: 1 auto;
+    object-fit: cover;
+}
+
+.bottom {
+    flex: 1 0 auto;
+    padding: 0 10px;
+}
+
+.bottom > h1 {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.bottom > p {
+    font-size: 12px;
+    margin: 0px;
+    color: #5e5c5cb5;
+}
+

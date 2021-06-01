@@ -1,0 +1,23 @@
+.container {
+    padding: 0 15px;
+}
+
+.verticalScroll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.horizontalScroll {
+    overflow-y: scroll;
+}
+
+.contentContainer {
+    padding: 10px 0;
+    scrollbar-width: none;
+}
+
+.contentContainer::-webkit-scrollbar {
+    display: none;
+}

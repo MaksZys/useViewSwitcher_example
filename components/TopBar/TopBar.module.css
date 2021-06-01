@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex: 0 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 27px -5px;
+    min-height: 50px;
+}
+
+.grayIcon {
+    fill: #979797;
+    cursor: not-allowed;
+}
+
+.colorChange:hover {
+    fill: rgba(20, 42, 108, 0.7);
+    cursor: pointer;
+}
+
+.leftContainer {
+    display: flex;
+    flex: 1 60%;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.buttonStyles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger {
+    margin: 0 15% 0 0;
+}
+
+.titleText {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.rightContainer {
+    display: flex;
+    flex: 1 20%;
+    align-items: center;
+    flex-direction: row;
+    gap: 20%;
+}

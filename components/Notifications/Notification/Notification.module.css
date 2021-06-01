@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.textContainer {
+    flex: 3 auto;
+}
+
+.textContainer > h1 {
+    margin: 0;
+}
+
+.image {
+    flex: 1 auto;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}

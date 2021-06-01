@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 30vh;
+    min-width: 315px;
+    max-width: 600px;
+    height: 80vh;
+    min-height: 580px;
+}
+
+
+.content {
+    flex: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+

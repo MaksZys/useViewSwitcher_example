@@ -1,0 +1,12 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3a3a;
+    width: 100vw;
+    height: 100vh;
+}
+
+.topbar {
+    flex: 0 10%;
+}
